@@ -9,6 +9,7 @@ public class StringOperations {
         String s = "abcadeafg";
         System.out.println(s.length()); //9
         System.out.println(s.charAt(1)); //b
+        System.out.println(s.repeat(2)); //abcadeafgabcadeafg
         System.out.println(s.indexOf('a')); //0
         System.out.println(s.substring(2,6)); //cade
         System.out.println(s.equals("qwerty")); //false
